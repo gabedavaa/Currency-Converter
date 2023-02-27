@@ -8,5 +8,34 @@
     <title>Currency Converter</title>
     <script defer src="./script.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h2 class="heading"></h2>
+      <div class="cuurency-container">
+        <select id="currency-first">
+          <option value="AUD">AUD</option>
+          <option value="CAD">CAD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="INR">INR</option>
+          <option value="JPY">JPY</option>
+          <option value="USD" selected>USD</option>
+        </select>
+        <input type="number" id="worth-first" value="1" min="0" />
+      </div>
+      <div class="cuurency-container">
+        <select id="currency-second">
+          <option value="AUD">AUD</option>
+          <option value="CAD">CAD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP" selected>GBP</option>
+          <option value="INR">INR</option>
+          <option value="JPY">JPY</option>
+          <option value="USD">USD</option>
+        </select>
+        <input type="number" id="worth-second" disabled />
+      </div>
+      <p class="exchange-rate">1 usd = 165.52 jpy</p>
+    </div>
+  </body>
 </html>
