@@ -55,8 +55,15 @@ body {
   padding: 8px;
 }
 
-select:focus {
+select {
   cursor: pointer;
+}
+
+select:focus {
+  background-color: ivory;
+}
+
+input:active {
   background-color: ivory;
 }
 
