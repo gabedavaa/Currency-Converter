@@ -63,14 +63,12 @@ select:focus {
   background-color: ivory;
 }
 
-input:active {
-  background-color: ivory;
-}
-
 input:focus {
+  background-color: rgb(236, 236, 225);
   outline: none;
 }
 
 .exchange-rate {
   font-size: 18px;
+  font-weight: bold;
 }
